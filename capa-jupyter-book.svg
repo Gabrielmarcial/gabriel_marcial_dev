@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a141f"/>
+      <stop offset="100%" stop-color="#0f2233"/>
+    </linearGradient>
+    <pattern id="bpGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 40 L0 0 L40 0" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1600" height="500" fill="url(#bgGrad)"/>
+  <rect width="1600" height="500" fill="url(#bpGrid)"/>
+
+  <!-- outer frame -->
+  <rect x="20" y="20" width="1560" height="460" fill="none" stroke="#5eead4" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- corner crosshairs -->
+  <g stroke="#38bdf8" stroke-width="1.5" opacity="0.5">
+    <path d="M10,20 L30,20 M20,10 L20,30"/>
+    <path d="M1570,20 L1590,20 M1580,10 L1580,30"/>
+    <path d="M10,480 L30,480 M20,470 L20,490"/>
+    <path d="M1570,480 L1590,480 M1580,470 L1580,490"/>
+  </g>
+
+  <!-- ruler ticks top/bottom -->
+  <g stroke="#38bdf8" stroke-width="1" opacity="0.15">
+    <line x1="120" y1="20" x2="120" y2="26"/><line x1="220" y1="20" x2="220" y2="26"/>
+    <line x1="320" y1="20" x2="320" y2="26"/><line x1="420" y1="20" x2="420" y2="26"/>
+    <line x1="520" y1="20" x2="520" y2="26"/><line x1="720" y1="20" x2="720" y2="26"/>
+    <line x1="820" y1="20" x2="820" y2="26"/><line x1="920" y1="20" x2="920" y2="26"/>
+    <line x1="1120" y1="20" x2="1120" y2="26"/><line x1="1220" y1="20" x2="1220" y2="26"/>
+    <line x1="1320" y1="20" x2="1320" y2="26"/><line x1="1480" y1="20" x2="1480" y2="26"/>
+    <line x1="120" y1="474" x2="120" y2="480"/><line x1="220" y1="474" x2="220" y2="480"/>
+    <line x1="320" y1="474" x2="320" y2="480"/><line x1="420" y1="474" x2="420" y2="480"/>
+    <line x1="520" y1="474" x2="520" y2="480"/><line x1="720" y1="474" x2="720" y2="480"/>
+    <line x1="820" y1="474" x2="820" y2="480"/><line x1="920" y1="474" x2="920" y2="480"/>
+    <line x1="1120" y1="474" x2="1120" y2="480"/><line x1="1220" y1="474" x2="1220" y2="480"/>
+    <line x1="1320" y1="474" x2="1320" y2="480"/><line x1="1480" y1="474" x2="1480" y2="480"/>
+  </g>
+
+  <!-- connecting trace line -->
+  <line x1="200" y1="230" x2="1400" y2="230" stroke="#38bdf8" stroke-width="1.5" opacity="0.35"/>
+  <g stroke="#38bdf8" stroke-width="1" opacity="0.25">
+    <line x1="300" y1="226" x2="300" y2="234"/><line x1="400" y1="226" x2="400" y2="234"/>
+    <line x1="500" y1="226" x2="500" y2="234"/><line x1="700" y1="226" x2="700" y2="234"/>
+    <line x1="900" y1="226" x2="900" y2="234"/><line x1="1100" y1="226" x2="1100" y2="234"/>
+    <line x1="1200" y1="226" x2="1200" y2="234"/><line x1="1300" y1="226" x2="1300" y2="234"/>
+  </g>
+  <circle cx="800" cy="230" r="9" fill="#f4a261" opacity="0.22"/>
+  <circle cx="800" cy="230" r="4" fill="#f4a261"/>
+
+  <!-- ================= ICON 1: PYTHON / TERMINAL ================= -->
+  <g>
+    <rect x="140" y="178" width="120" height="100" rx="10" fill="#0d1b2a" fill-opacity="0.65" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="140" y="178" width="120" height="20" fill="#16263a"/>
+    <circle cx="152" cy="188" r="3" fill="#f4a261"/>
+    <circle cx="164" cy="188" r="3" fill="#5eead4"/>
+    <circle cx="176" cy="188" r="3" fill="#38bdf8"/>
+    <rect x="152" y="208" width="70" height="3" fill="#5eead4" opacity="0.85"/>
+    <rect x="152" y="224" width="50" height="3" fill="#5eead4" opacity="0.85"/>
+    <rect x="152" y="240" width="60" height="3" fill="#5eead4" opacity="0.85"/>
+    <polyline points="152,254 162,261 152,268" stroke="#f4a261" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="168" y="256" width="8" height="11" fill="#f4a261"/>
+  </g>
+
+  <!-- ================= ICON 2: LINEAR ALGEBRA / MATRIX ================= -->
+  <g>
+    <path d="M552,178 L540,178 L540,282 L552,282" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M648,178 L660,178 L660,282 L648,282" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="565" y1="200" x2="635" y2="260" stroke="#f4a261" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.8"/>
+    <circle cx="565" cy="200" r="4" fill="#5eead4"/>
+    <circle cx="600" cy="200" r="4" fill="#5eead4"/>
+    <circle cx="635" cy="200" r="4" fill="#5eead4"/>
+    <circle cx="565" cy="230" r="4" fill="#5eead4"/>
+    <circle cx="600" cy="230" r="5" fill="#f4a261"/>
+    <circle cx="635" cy="230" r="4" fill="#5eead4"/>
+    <circle cx="565" cy="260" r="4" fill="#5eead4"/>
+    <circle cx="600" cy="260" r="4" fill="#5eead4"/>
+    <circle cx="635" cy="260" r="4" fill="#5eead4"/>
+    <text x="668" y="200" font-family="Georgia, serif" font-style="italic" font-size="26" fill="#f4a261">&#955;</text>
+  </g>
+
+  <!-- ================= ICON 3: ENGINEERING / GEAR ================= -->
+  <g>
+    <circle cx="1000" cy="230" r="42" fill="#0d1b2a" fill-opacity="0.4" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="1000" cy="230" r="16" fill="#0a141f" stroke="#38bdf8" stroke-width="2"/>
+    <g fill="#38bdf8">
+      <rect x="994" y="180" width="12" height="16" transform="rotate(0,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(45,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(90,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(135,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(180,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(225,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(270,1000,230)"/>
+      <rect x="994" y="180" width="12" height="16" transform="rotate(315,1000,230)"/>
+    </g>
+    <circle cx="1018" cy="208" r="3" fill="#f4a261"/>
+    <circle cx="1018" cy="252" r="3" fill="#f4a261"/>
+    <circle cx="982" cy="252" r="3" fill="#f4a261"/>
+    <circle cx="982" cy="208" r="3" fill="#f4a261"/>
+    <line x1="945" y1="300" x2="1055" y2="300" stroke="#5eead4" stroke-width="1" opacity="0.8"/>
+    <line x1="945" y1="296" x2="945" y2="304" stroke="#5eead4" stroke-width="1" opacity="0.8"/>
+    <line x1="1055" y1="296" x2="1055" y2="304" stroke="#5eead4" stroke-width="1" opacity="0.8"/>
+    <text x="1000" y="320" font-family="monospace" font-size="14" fill="#93c5fd" text-anchor="middle">&#216;90</text>
+  </g>
+
+  <!-- ================= ICON 4: COMPUTER VISION / EYE ================= -->
+  <g>
+    <ellipse cx="1400" cy="230" rx="55" ry="28" fill="#0d1b2a" fill-opacity="0.5" stroke="#38bdf8" stroke-width="2.5"/>
+    <circle cx="1400" cy="230" r="15" fill="#0a141f" stroke="#5eead4" stroke-width="2"/>
+    <circle cx="1400" cy="230" r="5" fill="#f4a261"/>
+    <g stroke="#5eead4" stroke-width="2.5" fill="none" stroke-linecap="square">
+      <path d="M1335,192 L1335,178 L1349,178"/>
+      <path d="M1451,178 L1465,178 L1465,192"/>
+      <path d="M1335,268 L1335,282 L1349,282"/>
+      <path d="M1451,282 L1465,282 L1465,268"/>
+    </g>
+    <g stroke="#f4a261" stroke-width="1" opacity="0.6">
+      <line x1="1448" y1="200" x2="1415" y2="222"/>
+      <line x1="1460" y1="225" x2="1415" y2="230"/>
+      <line x1="1445" y1="255" x2="1415" y2="238"/>
+    </g>
+    <g stroke="#f4a261" stroke-width="1.5" opacity="0.8">
+      <path d="M1444,196 L1452,204 M1452,196 L1444,204"/>
+      <path d="M1456,221 L1464,229 M1464,221 L1456,229"/>
+      <path d="M1441,251 L1449,259 M1449,251 L1441,259"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g font-family="monospace" font-size="15" fill="#93c5fd" text-anchor="middle" letter-spacing="1">
+    <line x1="140" y1="335" x2="260" y2="335" stroke="#5eead4" stroke-width="1" opacity="0.3"/>
+    <text x="200" y="356">FIG.PY — PYTHON</text>
+    <line x1="540" y1="335" x2="660" y2="335" stroke="#5eead4" stroke-width="1" opacity="0.3"/>
+    <text x="600" y="356">FIG.LA — ALG. LINEAR</text>
+    <line x1="940" y1="335" x2="1060" y2="335" stroke="#5eead4" stroke-width="1" opacity="0.3"/>
+    <text x="1000" y="356">FIG.ENG — ENGENHARIA</text>
+    <line x1="1340" y1="335" x2="1460" y2="335" stroke="#5eead4" stroke-width="1" opacity="0.3"/>
+    <text x="1400" y="356">FIG.CV — VISÃO COMP.</text>
+  </g>
+
+  <!-- title block (signature element) -->
+  <g font-family="monospace" font-size="11" fill="#5eead4" opacity="0.6">
+    <rect x="1470" y="430" width="100" height="40" fill="none" stroke="#5eead4" stroke-width="1" opacity="0.4"/>
+    <line x1="1470" y1="450" x2="1570" y2="450" stroke="#5eead4" stroke-width="1" opacity="0.4"/>
+    <text x="1478" y="445">REV A</text>
+    <text x="1478" y="464">SCALE N.T.S.</text>
+  </g>
+</svg>

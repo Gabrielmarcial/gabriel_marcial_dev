@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 27d0b7f7-182d-4938-b273-cb7b0b519e79
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: ChatGPT Image 19 de jun. de 2026, 19_56_50.png
