@@ -3,7 +3,7 @@
 
 ## Sobre este material
 
-Este livro foi desenvolvido com o objetivo de reunir conteúdos, estudos e aplicações práticas relacionados às disciplinas e projetos desenvolvidos ao longo da graduação, servindo como um ambiente de documentação, aprendizagem e compartilhamento de conhecimento.
+Este livro foi desenvolvido com o objetivo de reunir conteúdos, estudos e aplicações práticas relacionados às disciplinas e projetos desenvolvidos pelo autor, servindo como um ambiente de documentação, aprendizagem e compartilhamento de conhecimento.
 
 Ao longo deste material, serão apresentados conceitos teóricos, exemplos práticos, implementações computacionais e estudos aplicados em diferentes áreas, buscando integrar a teoria com aplicações reais.
 
@@ -11,11 +11,11 @@ Ao longo deste material, serão apresentados conceitos teóricos, exemplos prát
 
 ## Sobre o autor
 
-**Gabriel Marcial de Paiva** é estudante de graduação na **Universidade Federal Fluminense (UFF)** e possui interesse nas áreas de Álgebra Linear Computacional, Ciência de Dados, Sensoriamento Remoto, Geoprocessamento e Visão Computacional.
+Engenheiro formado pela Universidade do Estado do Rio de Janeiro (UERJ), com foco em programação e visão
+computacional. Atua como Engenheiro de Dados, desenvolvendo pipelines e fluxos de machine learning na plataforma Databricks,
+com experiência em soluções escaláveis para processamento de dados, desempenho, automação e CI/CD. Possui domínio em
+Python, SQL, PySpark e Databricks, além de experiência em análise e modelagem de dados com Pandas, Matplotlib, scikit-learn e TensorFlow. Também atua na construção de aplicações com Retrieval-Augmented Generation (RAG), integrando pipelines de embeddings, armazenamento vetorial e consumo de LLMs.
 
-Seus projetos acadêmicos envolvem a aplicação de métodos matemáticos e computacionais para análise e processamento de dados, utilizando ferramentas como Python e bibliotecas científicas para desenvolver soluções aplicadas a problemas reais.
-
-Este material foi elaborado como uma forma de organizar conhecimentos, documentar experimentos e compartilhar resultados obtidos durante o desenvolvimento de trabalhos acadêmicos e projetos de pesquisa.
 
 ---
 
@@ -23,9 +23,8 @@ Este material foi elaborado como uma forma de organizar conhecimentos, documenta
 
 - Apresentar conceitos teóricos de forma clara e objetiva;
 - Desenvolver exemplos práticos utilizando Python;
-- Demonstrar aplicações de Álgebra Linear Computacional;
 - Explorar técnicas de processamento e análise de imagens;
-- Documentar projetos e experimentos desenvolvidos ao longo da graduação.
+- Documentar projetos e experimentos desenvolvidos.
 
 ---
 

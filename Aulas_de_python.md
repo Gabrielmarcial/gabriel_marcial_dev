@@ -38,20 +38,11 @@ Quer aprender Python do zero ou dar aquele próximo passo na sua carreira com da
 - Encontros ao vivo (online), com exercícios práticos entre as aulas
 - Acompanhamento próximo para tirar dúvidas e revisar código
 
-```{note}
-Ajuste esta seção com os detalhes reais: carga horária, duração do curso, formato (ao vivo/gravado), valores e frequência das aulas.
-```
-
 ---
 
 ## 💬 Como participar
 
 Tem interesse ou quer saber mais? Entre em contato:
 
-- [WhatsApp](https://wa.me/SEUNUMERO)
-- [E-mail](mailto:seuemail@exemplo.com)
-- [LinkedIn](https://www.linkedin.com/in/SEU-USUARIO)
+- **E-mail:** gmpaiva228@gmail.com
 
-```{note}
-Substitua os links acima pelos seus contatos reais.
-```
