@@ -15,9 +15,9 @@ site:
     logo: ChatGPT Image 19 de jun. de 2026, 19_56_50.png
   
   nav:
-    - title: Bem-Vindo
-      url: /abstract
+    - title: Inicio
+      url: /bem-vindo
     - title: 📖 Aulas de Python
       url: /aulas-de-python
-    - title: 💻 Sobre Mim
+    - title: 💻 Sobre autor
       url: /sobre-autor
