@@ -1,16 +1,33 @@
-# Aulas de Python
+---
+title: 📖 Aulas de Python
+site:
+  hide_title_block: true
+  hide_outline: true
+  hide_toc: true
+---
 
-```{image} imagens/aulas.png
-:alt: Aulas de Python
-:width: 600px
-:align: center
-```
++++ { "kind": "split-image", "class": "col-screen" }
 
-<br>
+Engenharia de Dados &amp; Visão Computacional
+
+## Aulas de Python
+
 
 Quer aprender Python do zero ou dar aquele próximo passo na sua carreira com dados e programação? Ofereço aulas particulares (ou em grupo) pensadas para quem quer aprender na prática, com projetos reais e aplicações do dia a dia — não só teoria.
 
----
+ 
+{button}`E-mail <mailto:gmpaiva228@gmail.com>`  
+
+```{image} imagens/aulas.png
+:alt: Foto de perfil
+:width: 1000px
+:align: center
+```
+
++++ 
+
+
+
 
 ## 🐍 Para quem são essas aulas
 
