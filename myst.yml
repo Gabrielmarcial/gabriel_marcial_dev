@@ -11,12 +11,11 @@ project:
 site:
   template: book-theme
   options:
-    favicon: favicon.ico
-    logo: ChatGPT Image 19 de jun. de 2026, 19_56_50.png
+    favicon: icon01.png
+    logo: icon01.png
+    analytics_google: G-ZG3H9KQNQK
   
   nav:
-    - title: Inicio
-      url: /bem-vindo
     - title: 📖 Aulas de Python
       url: /aulas-de-python
     - title: 💻 Sobre autor
