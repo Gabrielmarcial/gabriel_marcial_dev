@@ -1,4 +1,4 @@
-# Bem-vindo
+# 🧠 Bem-vindo
 ![logo](capa-jupyter-book.svg)
 
 ## Sobre este material
